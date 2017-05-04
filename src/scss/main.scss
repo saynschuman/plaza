@@ -1,3 +1,44 @@
 @import "includes/variables";
 @import "includes/fonts";
 @import "vendors/bootstrap";
+
+body {
+	font-family: GothaProReg;
+	font-size: 19px;
+	color: #000;
+}
+
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+header.header {
+	padding-top: 35px;
+	.logo {
+		display: block;
+		img {
+			width: auto;
+			display: block;
+			max-width: 100%;
+		}
+	}
+	.right-menu {
+		padding-top: 10px;
+		text-align: right;
+		li {
+			list-style: none; 
+			line-height: 1.7;
+			a {
+				color: #000;
+				.multi-img {
+					padding: 0 2px;	
+				}
+			}
+			.tel-num {
+				padding-left: 10px;
+				display: inline-block;
+			}
+		}
+	}
+}
