@@ -8,9 +8,40 @@ body {
 	color: #000;
 }
 
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+.caret {
+    border-top: 8px dashed;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+
 a:focus {
 	outline: none;
 	text-decoration: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    border: none;
+}
+
+.navbar-default {
+    background-color: #48a5a8;
+    border-color: transparent;
+    border-radius: 0;
+}
+
+.navbar-collapse {
+	padding: 0;
 }
 
 header.header {
@@ -38,6 +69,75 @@ header.header {
 			.tel-num {
 				padding-left: 10px;
 				display: inline-block;
+			}
+		}
+	}
+	.navbar {
+		margin-bottom: 0;
+		margin-top: 20px;
+		.menu {
+			margin-bottom: 0;
+			border-top: 1px solid #aad5d6;
+			border-bottom: 1px solid #aad5d6;
+		}
+		li {
+			list-style: none;
+			display: inline-block;
+			float: left;
+			&.dropdown {
+				position: relative;
+				&::after {
+					content: '';
+					position: absolute;
+				}
+			}
+			a {
+				color: #fff;
+				font-size: 18px;
+				font-weight: 600;
+				padding: 17px 25px; 
+				border-right: 1px solid #aad5d6;
+				display: block;
+				text-align: center;
+			}
+			&:last-child {
+				a {
+					border-right: none;		
+				}
+			}
+		}
+	}
+	form {
+		padding: 11px 24px;
+		input[type="search"] {
+			border: none;
+			outline: none;
+			padding: 3px 0;
+			padding-left: 10px;
+		}
+		input[type="submit"] {
+		    background-image: url(../img/s-b.png);
+		    color: transparent;
+		    border: none;
+		    height: 33px;
+		    width: 36px;
+		    background-position: center center;
+		}
+	}
+	.dropdown-menu {
+		li {
+			float: none;
+			display: block;
+			padding-left: 20px;
+			a {
+				color: #000;
+				text-align: left;
+				line-height: 2;
+				border: none;
+				width: 100%;
+				display: block;
+				padding: 0;
+
 			}
 		}
 	}
