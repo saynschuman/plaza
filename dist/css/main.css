@@ -5987,3 +5987,37 @@ header.header {
     height: 343px;
     background-repeat: no-repeat;
     margin: 0 50px auto; }
+  .why.what::before {
+    background-image: url(../img/blue-plank.png); }
+  .why.what .what-block {
+    position: relative;
+    padding-bottom: 30px; }
+    .why.what .what-block a {
+      color: #48a5a8;
+      font-size: 21px;
+      text-align: center;
+      width: 100%;
+      text-transform: uppercase;
+      display: block;
+      padding-top: 15px;
+      margin: 0 auto; }
+    .why.what .what-block .title {
+      font-size: 21px;
+      color: #000;
+      text-align: left;
+      text-transform: lowercase;
+      position: absolute;
+      top: -8px;
+      line-height: 1.1;
+      padding-bottom: 0;
+      padding-top: 0;
+      padding-left: 38px; }
+    .why.what .what-block img {
+      margin: auto;
+      display: block; }
+  .why .lamp {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }

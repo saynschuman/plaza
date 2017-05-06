@@ -243,4 +243,44 @@ header.header {
 		margin: 0 50px auto;
 
 	}
+	&.what {
+		&::before {
+			background-image: url(../img/blue-plank.png); 
+		}	
+		.what-block {
+			position: relative;
+			padding-bottom: 30px;
+			a {
+				color: $blue;
+				font-size: 21px;
+				text-align: center;
+				width: 100%;
+				text-transform: uppercase;
+				display: block;
+				padding-top: 15px;
+				margin: 0 auto;
+			}
+			.title {
+				font-size: 21px;
+				color: #000;
+				text-align: left;
+				text-transform: lowercase;
+				position: absolute;
+				top: -8px;
+				line-height: 1.1;
+			    padding-bottom: 0;
+    			padding-top: 0;
+    			padding-left: 38px;
+			}
+			img {
+			    margin: auto;
+    			display: block;
+			}
+		}	
+	}
+	.lamp {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
 }
