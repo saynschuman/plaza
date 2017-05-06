@@ -3,6 +3,10 @@
   font-family: "GothaProReg";
   src: url("../fonts/gotham/GothaProReg.otf"); }
 
+@font-face {
+  font-family: "GothaProBold";
+  src: url("../fonts/gotham/GothaProBol.otf"); }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -6021,3 +6025,102 @@ header.header {
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
+
+.want {
+  text-align: center;
+  background-image: url(../img/form-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 30px; }
+  .want .want-title {
+    color: #fff;
+    font-size: 33px;
+    font-family: GothaProBold; }
+  .want .sub-title {
+    color: #fff;
+    font-size: 21px;
+    line-height: 1.2;
+    margin-bottom: 20px; }
+  .want form input {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 40px; }
+    .want form input.topic {
+      max-width: 890px; }
+    .want form input.email {
+      max-width: 586px; }
+  .want form button {
+    width: 100%;
+    max-width: 341px;
+    height: 70px;
+    color: #000;
+    font-size: 24px;
+    border: none;
+    background: none;
+    background-color: #dedc00; }
+  .want .reviews .rev-tit {
+    text-align: center;
+    text-transform: uppercase;
+    color: #48a5a8;
+    font-size: 32px;
+    padding-bottom: 25px;
+    padding-top: 50px; }
+  .want .reviews .review {
+    color: #1b1b1b;
+    font-size: 16px;
+    text-align: justify; }
+    .want .reviews .review a {
+      color: #48a5a8;
+      font-size: 22.46px;
+      display: block;
+      margin-top: 5px;
+      border-top: 2px solid #48a5a8;
+      margin-bottom: 70px; }
+  .want .reviews .look {
+    width: 880px;
+    display: block;
+    margin: auto;
+    margin-top: 30px; }
+    .want .reviews .look .l {
+      text-align: left;
+      float: left;
+      height: 50px;
+      display: block;
+      padding-top: 13px;
+      background: #48a5a8;
+      width: 50%;
+      color: #fff;
+      padding-left: 40px; }
+    .want .reviews .look .r {
+      text-align: right;
+      float: right;
+      height: 50px;
+      display: block;
+      padding-top: 13px;
+      background: #48a5a8;
+      width: 50%;
+      color: #fff;
+      padding-right: 40px; }
+
+.portfolio {
+  padding-top: 30px; }
+  .portfolio img {
+    margin-bottom: 26px;
+    width: 100%;
+    height: auto; }
+
+.text p {
+  color: #1b1b1b;
+  font-size: 16px; }
+
+.text ul {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 15px; }
+  .text ul li {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.7; }

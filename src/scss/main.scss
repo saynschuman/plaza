@@ -284,3 +284,125 @@ header.header {
 		transform: translateX(-50%);
 	}
 }
+
+.want {
+	text-align: center;
+	background-image: url(../img/form-background.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 30px;
+	.want-title {
+		color: #fff;
+		font-size: 33px;
+		font-family: GothaProBold;
+	}
+	.sub-title {
+		color: #fff;
+		font-size: 21px;
+		line-height: 1.2;
+		margin-bottom: 20px;
+	}
+	form {
+		input {
+			width: 100%;
+			display: block;
+			margin: auto;
+			margin-bottom: 10px;
+			text-align: center;
+			height: 40px;
+			&.topic {
+				max-width: 890px; 
+			}
+			&.email {
+				max-width: 586px; 
+			}
+		}
+		button {
+			width: 100%;
+			max-width: 341px; 
+			height: 70px;
+			color: #000;
+			font-size: 24px;
+			border: none;
+			background: none;
+			background-color: #dedc00; 
+		}
+	}
+	.reviews {
+		.rev-tit {
+		    text-align: center;
+		    text-transform: uppercase;
+		    color: #48a5a8;
+		    font-size: 32px;
+		    padding-bottom: 25px;
+		    padding-top: 50px;
+		}
+		.review {
+			color: #1b1b1b;
+			font-size: 16px;
+			text-align: justify;
+			a {
+				color: $blue;
+				font-size: 22.46px;
+				display: block;
+				margin-top: 5px;
+				border-top: 2px solid #48a5a8;
+				margin-bottom: 70px;
+			}
+		}
+		.look {
+			width: 880px;
+			display: block;
+			margin: auto;
+			margin-top: 30px;
+			.l {
+				text-align: left;
+				float: left;
+				height: 50px;
+				display: block;
+				padding-top: 13px;
+				background: $blue;
+				width: 50%;
+				color: #fff;
+				padding-left: 40px;
+			}
+			.r {
+				text-align: right;
+				float: right;
+				height: 50px;
+				display: block;
+				padding-top: 13px;
+				background: $blue;
+				width: 50%;
+				color: #fff;
+				padding-right: 40px;
+			}
+		}
+	}
+}
+
+.portfolio {
+	padding-top: 30px;
+	img {
+		margin-bottom: 26px;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.text {
+	p {
+		color: #1b1b1b;
+		font-size: 16px;
+	}
+	ul {
+		padding-left: 20px;
+		padding-bottom: 20px;
+		padding-top: 15px;
+		li {
+			font-size: 16px;
+			text-transform: uppercase;
+			line-height: 1.7;
+		}
+	}
+}
