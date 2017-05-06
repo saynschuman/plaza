@@ -153,6 +153,7 @@ header.header {
 
 .main-screen {
 	.slider {
+		margin-bottom: 12px;
 		.item {
 			height: 416px;
 			width: 100%;
@@ -199,5 +200,47 @@ header.header {
 			padding: 6px 0;
 			font-weight: 600;
 		}
+	}
+}
+
+.why {
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 13px;
+		width: calc(100% - 26px);
+		height: 72px;
+		background-image: url(../img/yellow-plank.png); 
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.title {
+		text-align: center;
+		text-transform: uppercase;
+		color: $blue;
+		font-size: 32px;
+		padding-bottom: 25px;
+		padding-top: 90px;
+	}
+	.left-bl {
+		.point {
+			font-size: 28px;
+			color: #0d0d0d;
+			span {
+				color: $blue;
+				font-size: 50px;
+			}
+		}
+	}
+	.map-bl {
+		background-image: url(../img/map.png);
+		background-size: 100%; 
+		background-position: center center;
+		height: 343px;  
+		background-repeat: no-repeat; 
+		margin: 0 50px auto;
+
 	}
 }

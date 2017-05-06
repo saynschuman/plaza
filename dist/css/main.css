@@ -5909,10 +5909,12 @@ header.header {
       header.header .dropdown-menu li a:hover {
         background: #fff; }
 
-.main-screen .slider .item {
-  height: 416px;
-  width: 100%;
-  background-size: 100%; }
+.main-screen .slider {
+  margin-bottom: 12px; }
+  .main-screen .slider .item {
+    height: 416px;
+    width: 100%;
+    background-size: 100%; }
 
 .main-screen .right-screen .block {
   position: relative;
@@ -5951,3 +5953,37 @@ header.header {
   margin: auto;
   padding: 6px 0;
   font-weight: 600; }
+
+.why {
+  position: relative; }
+  .why::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 13px;
+    width: -webkit-calc(100% - 26px);
+    width: calc(100% - 26px);
+    height: 72px;
+    background-image: url(../img/yellow-plank.png);
+    background-repeat: no-repeat;
+    background-size: 100%; }
+  .why .title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #48a5a8;
+    font-size: 32px;
+    padding-bottom: 25px;
+    padding-top: 90px; }
+  .why .left-bl .point {
+    font-size: 28px;
+    color: #0d0d0d; }
+    .why .left-bl .point span {
+      color: #48a5a8;
+      font-size: 50px; }
+  .why .map-bl {
+    background-image: url(../img/map.png);
+    background-size: 100%;
+    background-position: center center;
+    height: 343px;
+    background-repeat: no-repeat;
+    margin: 0 50px auto; }
