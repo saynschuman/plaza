@@ -5816,6 +5816,9 @@ a:focus {
   outline: none;
   text-decoration: none; }
 
+a:hover {
+  text-decoration: none; }
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: transparent;
   border: none; }
@@ -5852,7 +5855,8 @@ header.header {
         display: inline-block; }
   header.header .navbar {
     margin-bottom: 0;
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-bottom: 10px; }
     header.header .navbar .menu {
       margin-bottom: 0;
       border-top: 1px solid #aad5d6;
@@ -5902,3 +5906,48 @@ header.header {
       width: 100%;
       display: block;
       padding: 0; }
+      header.header .dropdown-menu li a:hover {
+        background: #fff; }
+
+.main-screen .slider .item {
+  height: 416px;
+  width: 100%;
+  background-size: 100%; }
+
+.main-screen .right-screen .block {
+  position: relative;
+  height: 207px;
+  display: block;
+  width: 100%;
+  background: #f7f7f7; }
+  .main-screen .right-screen .block:first-child {
+    border-bottom: 2px solid #e3e3e3; }
+  .main-screen .right-screen .block:last-child {
+    border-top: 2px solid #fff; }
+  .main-screen .right-screen .block .inner {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin: auto;
+    display: block;
+    width: 100%; }
+
+.main-screen .right-screen .title {
+  color: #48a5a8;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 25px; }
+
+.main-screen .right-screen a {
+  color: #1b1b1b;
+  background: #dedc00;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: block;
+  width: 134px;
+  text-align: center;
+  margin: auto;
+  padding: 6px 0;
+  font-weight: 600; }
