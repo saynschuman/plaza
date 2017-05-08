@@ -507,6 +507,18 @@ header.header {
 }
 
 .text {
+	.sh-m {
+	  text-transform: uppercase;
+	  height: 56px;
+	  width: 100%;
+	  text-align: center;
+	  background: linear-gradient(to top, #dedc00, transparent);
+	  padding-top: 16px;
+	  margin-top: -20px;
+	  z-index: 2;
+	  position: relative;
+	  cursor: pointer;
+	}
 	p {
 		color: #1b1b1b;
 		font-size: 16px;
@@ -615,4 +627,35 @@ footer.footer {
 			font-size: 16.65px;
 		}
 	}
+}
+
+.sh-m {
+	display: none;
+}
+.mobile-search,
+.map-mobile,
+.sh-m,
+.logo-mob,
+.mob {
+  display: none;
+}
+.mobile-footer-form {
+	display: none !important;
+}
+.norm-size {
+	height: auto !important;
+	&::after {
+		display: none !important;
+	}
+	.sh-m {
+		display: none;	
+	}
+}
+.up {
+	font-size: 21px;
+	color: $blue;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px 0;
+	cursor: pointer;
 }

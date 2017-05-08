@@ -6208,6 +6208,20 @@ header.header {
     width: 100%;
     height: auto; }
 
+.text .sh-m {
+  text-transform: uppercase;
+  height: 56px;
+  width: 100%;
+  text-align: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dedc00), to(transparent));
+  background: -webkit-linear-gradient(bottom, #dedc00, transparent);
+  background: linear-gradient(to top, #dedc00, transparent);
+  padding-top: 16px;
+  margin-top: -20px;
+  z-index: 2;
+  position: relative;
+  cursor: pointer; }
+
 .text p {
   color: #1b1b1b;
   font-size: 16px; }
@@ -6292,3 +6306,31 @@ footer.footer {
     footer.footer .contacts .contact {
       margin-bottom: 20px;
       font-size: 16.65px; }
+
+.sh-m {
+  display: none; }
+
+.mobile-search,
+.map-mobile,
+.sh-m,
+.logo-mob,
+.mob {
+  display: none; }
+
+.mobile-footer-form {
+  display: none !important; }
+
+.norm-size {
+  height: auto !important; }
+  .norm-size::after {
+    display: none !important; }
+  .norm-size .sh-m {
+    display: none; }
+
+.up {
+  font-size: 21px;
+  color: #48a5a8;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+  cursor: pointer; }
