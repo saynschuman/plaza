@@ -406,3 +406,97 @@ header.header {
 		}
 	}
 }
+
+footer.footer {
+	background: $blue;
+	padding: 50px 0;
+	margin-top: 25px;
+	form, 
+	ul,
+	.footer-logo {
+		display: block;
+		float: none;
+	}
+	form {
+		input {
+			display: inline-block;
+			text-align: center;
+			border: none;
+			padding: 3px;
+			&[type="submit"] {
+				background: none;
+				background: #dedc00;
+				color: #000;
+				padding: 4px 20px;
+				font-family: GothaProNarMed;
+			}
+		}
+	}
+	.social {
+		position: relative;
+		padding: 0;
+		margin: 0;
+		padding-top: 30px;
+		margin-top: 25px;
+		margin-bottom: 30px;
+		&::before {
+			content: 'Мы в соцсетях:';
+			background: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			color: #fff;
+		}
+		img {
+			width: 29px;
+			height: 29px;
+		}
+		li {
+			display: inline-block;
+			list-style: none;
+			margin-top: 6px;
+		}
+	}
+	.logo {
+		display: block;
+		img {
+			width: auto;
+			display: block;
+			max-width: 100%;
+		}
+	}
+	.footer-menu {
+		padding: 0;
+		margin: 0;
+		li {
+			list-style: none;
+			&:first-child {
+				a {
+					padding-top: 0;
+				}
+			}
+			a {
+				color: #fff;
+				padding: 5px 0;
+				display: block;
+				font-size: 16.65px;
+			}
+
+		}
+	}
+	.contacts {
+		color: #fff;
+		padding-top: 0;
+		.cont-title {
+			font-size: 25.96px;
+			color: #dedc00;
+			line-height: 1;
+			margin-bottom: 20px;
+			padding-top: 0;
+		}
+		.contact {
+			margin-bottom: 20px;
+			font-size: 16.65px;
+		}
+	}
+}

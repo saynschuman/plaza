@@ -7,6 +7,10 @@
   font-family: "GothaProBold";
   src: url("../fonts/gotham/GothaProBol.otf"); }
 
+@font-face {
+  font-family: "GothaProNarMed";
+  src: url("../fonts/gotham/GothaProNarMed.otf"); }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -6124,3 +6128,75 @@ header.header {
     font-size: 16px;
     text-transform: uppercase;
     line-height: 1.7; }
+
+footer.footer {
+  background: #48a5a8;
+  padding: 50px 0;
+  margin-top: 25px; }
+  footer.footer form,
+  footer.footer ul,
+  footer.footer .footer-logo {
+    display: block;
+    float: none; }
+  footer.footer form input {
+    display: inline-block;
+    text-align: center;
+    border: none;
+    padding: 3px; }
+    footer.footer form input[type="submit"] {
+      background: none;
+      background: #dedc00;
+      color: #000;
+      padding: 4px 20px;
+      font-family: GothaProNarMed; }
+  footer.footer .social {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px; }
+    footer.footer .social::before {
+      content: 'Мы в соцсетях:';
+      background: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #fff; }
+    footer.footer .social img {
+      width: 29px;
+      height: 29px; }
+    footer.footer .social li {
+      display: inline-block;
+      list-style: none;
+      margin-top: 6px; }
+  footer.footer .logo {
+    display: block; }
+    footer.footer .logo img {
+      width: auto;
+      display: block;
+      max-width: 100%; }
+  footer.footer .footer-menu {
+    padding: 0;
+    margin: 0; }
+    footer.footer .footer-menu li {
+      list-style: none; }
+      footer.footer .footer-menu li:first-child a {
+        padding-top: 0; }
+      footer.footer .footer-menu li a {
+        color: #fff;
+        padding: 5px 0;
+        display: block;
+        font-size: 16.65px; }
+  footer.footer .contacts {
+    color: #fff;
+    padding-top: 0; }
+    footer.footer .contacts .cont-title {
+      font-size: 25.96px;
+      color: #dedc00;
+      line-height: 1;
+      margin-bottom: 20px;
+      padding-top: 0; }
+    footer.footer .contacts .contact {
+      margin-bottom: 20px;
+      font-size: 16.65px; }
